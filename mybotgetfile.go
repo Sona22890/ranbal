@@ -208,7 +208,7 @@ func isValidPort(port string) bool {
 }
 
 func check_expiration() {
-	expiryDate := "2024-11-28"
+	expiryDate := "2024-12-31"
 
 	expiry, err := time.Parse("2006-01-02", expiryDate)
 	if err != nil {
